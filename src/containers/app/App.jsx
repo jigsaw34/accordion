@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Accordion from '../../components/Accordion'
+import Scene3D from '../../components/Scene'
 import '../../styles/index.scss';
 
 const App = () => (
-  <Accordion />
+  <Scene3D />
 )
 
 export default App

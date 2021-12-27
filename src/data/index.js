@@ -1,26 +1,48 @@
-export const items = [
-	{
-		title: 'When and now it should be used?',
-		subTitle: 'Seriously, Don\'t Use Icon Fonts',
-		description: 'An accordion always contains the category title, expanded and a collapsed \n state an icon indicating expansion, and the spacing between them',
-    id: 1
-	},
-	{
-		title: 'What an accordion?',
-		subTitle: 'Show/Hiden operation',
-		description: 'An accordion always contains the category title, expanded and a collapsed',
-    id: 2
-	},	
-	{
-		title: 'What is the user clicks an a collapsed card?',
-		subTitle: 'They Fail Poorly and Often',
-		description: 'When your icon font fails, the browser treats it like any other font and replaces it with a fallback. Best-case scenario, you\'ve chosen your fallback characters carefully and something weird-looking but communicative still loads.',
-    id: 3
-	},
-	{
-		title: 'How to cloose an icon to indicate expansions?',
-		subTitle: 'They\'re a Nightmare if You\'re Dyslexic',
-		description: 'Many dyslexic people find it helpful to swap out a website\'s typeface for something like OpenDyslexic. But icon fonts get replaced as well, which makes for a frustratingly broken experience.',
-    id: 4
-	},
-];
+export const config = {
+		frame: [
+			{
+				color: '#202020',
+				colorName: 'black',
+				price: 250.00,
+				id: 1,
+			},
+			{
+				color: '#ffe505',
+				colorName: 'Yellow',
+				price: 180.00,
+				id: 2,
+			},
+			{
+				color: '#fdbb00',
+				colorName: 'Orange',
+				price: 150.00,
+				id: 3,
+			},
+			{
+				color: '#007997',
+				colorName: 'Blue',
+				price: 200.00,
+				id: 4,
+			}
+		],
+		rims: [
+			{
+				color: '#f71601',
+				colorName: 'Red',
+				price: 250.00,
+				id: 5,
+			},
+			{
+				color: '#007997',
+				colorName: 'Blue',
+				price: 200.00,
+				id: 6,
+			},
+			{
+				color: '#d7d7d7',
+				colorName: 'Grey',
+				price: 20.00,
+				id: 7,
+			},
+		]
+};
